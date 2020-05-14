@@ -1,0 +1,65 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.Profile"
+    android:background="@color/homeback">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameET"
+            android:text="Name"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@color/mainBG"
+            android:textColor="@color/text"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/chngPassET"
+            android:layout_below="@+id/nameET"
+            android:text="Change Password"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@color/mainBG"
+            android:textColor="@color/text"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookdBTN"
+            android:layout_below="@+id/chngPassET"
+            android:text="@string/booked_seat"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/text2"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutBTN"
+            android:layout_below="@+id/bookdBTN"
+            android:text="@string/logout"
+            android:textStyle="italic"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:background="@drawable/button_bg"
+            android:textColor="@color/text2"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

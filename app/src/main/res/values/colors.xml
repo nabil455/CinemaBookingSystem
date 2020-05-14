@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fde2e2</color>
+    <color name="colorPrimaryDark">#ffb6b6</color>
+
+    <color name="colorAccent">#03DAC5</color>
+    <color name="mainBG">#b80d57</color>
+
+    <color name="textBG">#f7f7f7</color>
+    <color name="text">#f8615a</color>
+
+    <color name="text2">#142850</color>
+    <color name="btnBG">#f8615a</color>
+
+    <color name="black">#000000</color>
+    <color name="homeback">#721b65</color>
+</resources>

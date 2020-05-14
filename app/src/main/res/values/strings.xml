@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cinema Booking System</string>
+    <string name="bus_booking_app">Bus Booking App</string>
+    <string name="enter_user_name">Email</string>
+    <string name="enter_password">Password</string>
+    <string name="login">Login</string>
+    <string name="if_have_no_account">Have No Account ?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_your_name">Your Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="have_account">Have Account ?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welocime_to_online_bus_ticket_booking_app">Welcome To Online Ticket Booking App</string>
+    <string name="Dummy2">Contact Us for More Info NO:03070116584</string>
+    <string name="dummy1">Cinema, or motion picture, is the art of moving images; a visual medium that tells stories and exposes reality. Created in the dusk of the 19th century, cinema is the worlds most recent art form.</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="re_type_password">Re-type password</string>
+    <string name="save">save</string>
+    <string name="booked_seat">Booked Seat</string>
+    <string name="logout">Logout</string>
+</resources>

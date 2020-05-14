@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/homeback"
+    >
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/iconIV"
+        android:src="@drawable/seat"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seatTV"
+        android:layout_toRightOf="@+id/iconIV"
+        android:text="Total Seats"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:textStyle="bold|italic"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rsTV"
+        android:layout_toRightOf="@+id/seatTV"
+        android:text="RS:"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/text"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceTV"
+        android:layout_toRightOf="@+id/rsTV"
+        android:text="0000"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/text"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTV"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_below="@+id/seatTV"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/text2"
+        android:textStyle="bold|italic"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/atTV"
+        android:text="AT"
+        android:layout_toRightOf="@id/nameTV"
+        android:layout_below="@+id/seatTV"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text2"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startTV"
+        android:text="Starting time"
+        android:layout_toRightOf="@id/atTV"
+        android:layout_below="@+id/seatTV"
+        android:textSize="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/text2"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>
